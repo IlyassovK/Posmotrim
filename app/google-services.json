@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "956509876449",
+    "project_id": "posmotrim-13897",
+    "storage_bucket": "posmotrim-13897.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956509876449:android:d0828f99e5aced99c807a0",
+        "android_client_info": {
+          "package_name": "com.example.movies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956509876449-gh9fkablmc6pu2sm2ombn19nra039tvs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.movies",
+            "certificate_hash": "265a87de3e4ab1aee9e571cbd3fbe721062b0128"
+          }
+        },
+        {
+          "client_id": "956509876449-iiashg8s5mfn6k61fg3btnku1vsjs31p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-rZ64YkbZcHwzfuo85dZ1PLBM09OmWLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956509876449-iiashg8s5mfn6k61fg3btnku1vsjs31p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

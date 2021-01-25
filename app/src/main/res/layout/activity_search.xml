@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SearchActivity"
+    android:background="@color/bg_main"
+    >
+
+    <LinearLayout
+        android:id="@+id/searchLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:weightSum="5"
+        android:layout_margin="20dp"
+        >
+
+        <EditText
+            android:id="@+id/searchEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:hint="Search movie"
+            android:textColor="@color/font_main"
+            android:textColorHint="@color/font_main"
+            />
+
+        <ImageButton
+            android:id="@+id/searchButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_search_24"
+            android:background="@color/btn_main"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/movieListTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You want to watch: "
+        android:layout_below="@+id/searchLayout"
+        android:textColor="@android:color/darker_gray"
+        android:layout_margin="10dp"
+        android:textStyle="italic"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/selectedMoviesRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/movieListTitleTextView"/>
+
+
+</RelativeLayout>
